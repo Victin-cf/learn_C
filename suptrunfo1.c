@@ -146,27 +146,27 @@ int main()
     printf("Instruções: \nse o resultado for \"1\" carta 1 vence\n se resultado for \"0\" carta 2 ganha\n\n");
 
     //Populacao Resultado
-    printf("Populacao:%d\n", Populacao1>Populacao2);
+    printf("Populacao:%d\n", Populacao1 > Populacao2);
 
     //Area Resultado
-    printf("Área: %.2f\n", Area1>Area2);
+    printf("Área: %d\n", Area1 > Area2);
 
     //PIB
-    printf("PIB: %.2f\n", PIB1>PIB2);
+    printf("PIB: %df\n", PIB1 > PIB2);
 
     //Pontos Turisticos
-    printf("Pontos Turísticos: %d\n", Pontos_Turisticos1>Pontos_Turisticos2);
+    printf("Pontos Turísticos: %d\n", Pontos_Turisticos1 > Pontos_Turisticos2);
 
     //Densidade Populacional
-    printf("Densidade Populacional: %.2f\n", Dens_pop1<Dens_pop2);
+    printf("Densidade Populacional: %d\n", Dens_pop1 < Dens_pop2);
 
     //PIB per Capita
-    printf("PIB per Capita: %.2f\n", PIBPC1>PIBPC2);
+    printf("PIB per Capita: %d\n", PIBPC1 > PIBPC2);
 
     //Super Poder
     SuperPoder1 = (Populacao1 + Area1 + PIB1 + Pontos_Turisticos1 + PIBPC1 - Dens_pop1);
     SuperPoder2 = (Populacao2 + Area2 + PIB2 + Pontos_Turisticos2 + PIBPC2 - Dens_pop2);
-    printf("Super Poder: %2.f\n", SuperPoder1>SuperPoder2);
+    printf("Super Poder: %d\n", SuperPoder1 > SuperPoder2);
 
 
     printf("\n");
