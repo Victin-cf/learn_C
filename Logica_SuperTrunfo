@@ -218,7 +218,7 @@ int main()
                 break;
         default:
             printf("Opção Inválida");
-                }   
+            }   
 
     printf("\n");
     return 0;
